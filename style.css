@@ -1,0 +1,53 @@
+/* ! Modal */
+
+.main-modal {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+}
+
+.inner-modal {
+  width: 500px;
+  height: 200px;
+  background-color: #fff;
+  margin: auto;
+  text-align: center;
+}
+
+.close {
+  text-align: end;
+}
+/* !Modal end */
+
+.btn-add {
+  width: 100px;
+  border: 5px;
+  background-color: aqua;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card {
+  border: 2px solid rgb(13, 13, 13);
+  text-align: center;
+}
+
+.btn-edit-delete {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#btn-edit {
+  display: none;
+}
