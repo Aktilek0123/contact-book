@@ -9,7 +9,7 @@ let btnClose = document.querySelector("#btn-close");
 let btnSave = document.querySelector("#btn-save");
 let btnEdit = document.querySelector("#btn-edit");
 
-let immge = document.querySelector("#image");
+let image = document.querySelector("#image");
 let name = document.querySelector("#name");
 let surname = document.querySelector("#surname");
 let number = document.querySelector("#number");
@@ -29,7 +29,7 @@ btnClose.addEventListener("click", function () {
 
 btnSave.addEventListener("click", async function () {
   let obj = {
-    image: immge.value,
+    image: image.value,
     name: name.value,
     surname: surname.value,
     number: number.value,
@@ -114,7 +114,7 @@ async function editCard(id) {
 
 btnEdit.addEventListener("click", async () => {
   let obj = {
-    image: immge.value,
+    image: image.value,
     name: name.value,
     surname: surname.value,
     number: number.value,
